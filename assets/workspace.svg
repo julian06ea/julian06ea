@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#02060b"/>
+    <stop offset="100%" stop-color="#07111a"/>
+  </linearGradient>
+  <linearGradient id="cyanGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#78fbff"/>
+    <stop offset="50%" stop-color="#ddffff"/>
+    <stop offset="100%" stop-color="#61e8ff"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#63f1ff" stroke-opacity="0.08" stroke-width="1"/>
+  </pattern>
+  <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="1.1" fill="#d6ffff" opacity="0.04"/>
+  </pattern>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2.4" result="b"/>
+    <feColorMatrix in="b" type="matrix"
+      values="0 0 0 0 0.30
+              0 0 0 0 1
+              0 0 0 0 1
+              0 0 0 1 0" result="c"/>
+    <feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.2"/>
+  </filter>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#63f1ff" flood-opacity="0.16"/>
+  </filter>
+</defs>
+
+<rect width="100%" height="100%" rx="30" fill="url(#bgGrad)"/>
+<rect width="100%" height="100%" rx="30" fill="url(#grid)"/>
+<rect width="100%" height="100%" rx="30" fill="url(#scanlines)"/>
+
+<text x="80" y="86" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800"
+      fill="url(#cyanGrad)" filter="url(#glow)">EA-workspace</text>
+<text x="82" y="126" font-family="Inter, Arial, sans-serif" font-size="24" fill="#c8feff" opacity="0.88">Main repo structure</text>
+
+<g transform="translate(78,156)" filter="url(#shadow)">
+  <rect x="0" y="0" width="1444" height="390" rx="26"
+        fill="#061019" fill-opacity="0.78" stroke="#80fbff" stroke-opacity="0.60" stroke-width="2"/>
+  <rect x="0" y="0" width="1444" height="44" rx="26"
+        fill="#070e14" fill-opacity="0.86" stroke="#80fbff" stroke-opacity="0.16" stroke-width="1.2"/>
+  <text x="28" y="30" font-family="ui-monospace, Menlo, monospace" font-size="22" fill="#79f7ff">julian06ea / EA-workspace</text>
+  <circle cx="1360" cy="22" r="7" fill="#18303f" stroke="#80fbff" stroke-opacity="0.25"/>
+  <circle cx="1389" cy="22" r="7" fill="#18303f" stroke="#80fbff" stroke-opacity="0.25"/>
+  <circle cx="1418" cy="22" r="7" fill="#18303f" stroke="#80fbff" stroke-opacity="0.25"/>
+
+  <g font-family="ui-monospace, Menlo, monospace" font-size="22">
+    <text x="34" y="84" fill="#7efaff">&gt;</text>
+    <text x="78" y="84" fill="#7efaff">EA-workspace</text>
+
+    <text x="70" y="134" fill="#f3ffff">├──</text>
+    <text x="132" y="134" fill="#7efaff">designProjects</text>
+
+    <text x="70" y="182" fill="#f3ffff">├──</text>
+    <text x="132" y="182" fill="#7efaff">fullstackProjects</text>
+
+    <text x="70" y="230" fill="#f3ffff">├──</text>
+    <text x="132" y="230" fill="#7efaff">interactiveProjects</text>
+
+    <text x="70" y="278" fill="#f3ffff">├──</text>
+    <text x="132" y="278" fill="#7efaff">frontendProjects</text>
+
+    <text x="70" y="326" fill="#f3ffff">└──</text>
+    <text x="132" y="326" fill="#7efaff">gameProject</text>
+
+    <text x="34" y="378" fill="#7efaff">&gt;</text>
+    <rect x="60" y="358" width="10" height="22" fill="#95ffff">
+      <animate attributeName="opacity" values="1;0;1" dur="1.15s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</g>
+</svg>
