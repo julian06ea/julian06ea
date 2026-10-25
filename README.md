@@ -15,6 +15,6 @@
 &nbsp;•&nbsp;
 <a href="https://github.com/julian06ea/EA-workspace/tree/main/frontendProjects">Frontend</a>
 &nbsp;•&nbsp;
-<a href="https://github.com/julian06ea/EA-workspace/tree/main/gameProject">Games</a>
-
+<a href="https://github.com/julian06ea/EA-workspace/tree/main/gameProjects">Games</a>
+&nbsp;•&nbsp;
 </div>
