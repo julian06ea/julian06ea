@@ -7,14 +7,16 @@
 
 <br>
 
-<a href="https://github.com/julian06ea/EA-workspace/tree/main/designProjects">Design</a>
+<a href="https://github.com/julian06ea/EA-worjects">Design</a>
 &nbsp;•&nbsp;
-<a href="https://github.com/julian06ea/EA-workspace/tree/main/fullstackProjects">Fullstack</a>
+<a href="https://github.com/julian06ea/EA-worProjects">Fullstack</a>
 &nbsp;•&nbsp;
-<a href="https://github.com/julian06ea/EA-workspace/tree/main/interactiveProjects">Interactive</a>
+<a href="https://github.com/julian06ea/EA-worveProjects">Interactive</a>
 &nbsp;•&nbsp;
-<a href="https://github.com/julian06ea/EA-workspace/tree/main/frontendProjects">Frontend</a>
+<a href="https://github.com/julian06ea/EA-worrojects">Frontend</a>
 &nbsp;•&nbsp;
-<a href="https://github.com/julian06ea/EA-workspace/tree/main/gameProjects">Games</a>
+<a href="https://github.com/julian06ea/EA-worcts">Games</a>
 &nbsp;•&nbsp;
+<a href="https://github.com/julian06ea/EA-wornProjects">Automation</a>
+
 </div>
