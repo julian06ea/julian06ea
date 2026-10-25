@@ -67,7 +67,7 @@
     <text x="70" y="278" fill="#f3ffff">├──</text>
     <text x="132" y="278" fill="#7efaff">frontendProjects</text>
 
-    <text x="70" y="326" fill="#f3ffff">└──</text>
+    <text x="70" y="326" fill="#f3ffff">├──</text>
     <text x="132" y="326" fill="#7efaff">gameProject</text>
 
     <text x="70" y="374" fill="#f3ffff">└──</text>
